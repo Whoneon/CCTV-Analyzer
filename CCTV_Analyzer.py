@@ -90,7 +90,7 @@ def detect_motion(video_path, output_dir):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print("Usage: python detect_motion.py <video_path> <output_dir>")
+        print("Usage: python3 CCTV_Analyzer.py <video_path> <output_dir>")
         sys.exit(1)  #Exit if no video path or no output directory
 
     video_path = sys.argv[1]  #Get video path as the first argument
