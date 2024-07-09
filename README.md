@@ -1,5 +1,5 @@
 # CCTV-Analyzer
-Check for movement in CCTV video frame
+Check for movement in CCTV video frame. This script will not only tell you if any movement has happened, but also when by providing the timestamp and a photo of that moment!
 
 
 ### REQUIREMENTS
@@ -13,6 +13,7 @@ cd CCTV-Analyzer
 ```
 
 ### RUN THE SCRIPT!
+Pass the video as the first argument, and the name for the output folder as the second. The script will check if any movement has happened in the video, then stores the pictures of those frames in the selectedfolder
 ```
 python3 CCTV_Analyzer.py <video_path> <output_dir>
 ```
